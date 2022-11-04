@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cars
+namespace Cars.CarProject
 {
     public class Audi : Car
     {
-        public String model;
+        public string model;
 
-        public Audi(String model)
+        public Audi(string model)
         {
             this.model = model;
         }

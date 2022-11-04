@@ -4,20 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cars
+namespace Cars.CarProject
 {
     public class Tire
     {
-        public String Type { get; set; }
+        public string Type { get; set; }
 
         public Tire()
         {
 
         }
 
-        public Tire(String type)
+        public Tire(string type)
         {
-            this.Type = type;
+            Type = type;
         }
     }
 }

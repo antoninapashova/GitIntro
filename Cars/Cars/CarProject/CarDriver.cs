@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cars
+namespace Cars.CarProject
 {
     public class CarDriver
     {
-        public String Name { get; set; }
+        public string Name { get; set; }
 
-        public CarDriver(String name)
+        public CarDriver(string name)
         {
-            this.Name = name;
+            Name = name;
         }
 
         public void driveCar(Car car)

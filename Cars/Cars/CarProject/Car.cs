@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cars
+namespace Cars.CarProject
 {
     public class Car
     {
-        public String RegistrationNumber { get; set; }
+        public string RegistrationNumber { get; set; }
         //Composition exmple
         public List<Tire> tire { get; set; }
-     
-        public Car() {}
-        public Car(String RegistrationNumber, List<Tire> tire)
+
+        public Car() { }
+        public Car(string RegistrationNumber, List<Tire> tire)
         {
             this.RegistrationNumber = RegistrationNumber;
             this.tire = tire;
